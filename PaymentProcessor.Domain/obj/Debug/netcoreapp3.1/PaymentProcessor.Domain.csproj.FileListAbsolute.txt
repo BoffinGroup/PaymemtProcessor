@@ -1,0 +1,12 @@
+C:\CHIJIOKE\PaymentProcessor.API\PaymentProcessor.Domain\bin\Debug\netcoreapp3.1\PaymentProcessor.Domain.deps.json
+C:\CHIJIOKE\PaymentProcessor.API\PaymentProcessor.Domain\bin\Debug\netcoreapp3.1\PaymentProcessor.Domain.runtimeconfig.json
+C:\CHIJIOKE\PaymentProcessor.API\PaymentProcessor.Domain\bin\Debug\netcoreapp3.1\PaymentProcessor.Domain.runtimeconfig.dev.json
+C:\CHIJIOKE\PaymentProcessor.API\PaymentProcessor.Domain\bin\Debug\netcoreapp3.1\PaymentProcessor.Domain.dll
+C:\CHIJIOKE\PaymentProcessor.API\PaymentProcessor.Domain\bin\Debug\netcoreapp3.1\PaymentProcessor.Domain.pdb
+C:\CHIJIOKE\PaymentProcessor.API\PaymentProcessor.Domain\obj\Debug\netcoreapp3.1\PaymentProcessor.Domain.AssemblyInfoInputs.cache
+C:\CHIJIOKE\PaymentProcessor.API\PaymentProcessor.Domain\obj\Debug\netcoreapp3.1\PaymentProcessor.Domain.AssemblyInfo.cs
+C:\CHIJIOKE\PaymentProcessor.API\PaymentProcessor.Domain\obj\Debug\netcoreapp3.1\PaymentProcessor.Domain.csproj.CoreCompileInputs.cache
+C:\CHIJIOKE\PaymentProcessor.API\PaymentProcessor.Domain\obj\Debug\netcoreapp3.1\PaymentProcessor.Domain.dll
+C:\CHIJIOKE\PaymentProcessor.API\PaymentProcessor.Domain\obj\Debug\netcoreapp3.1\PaymentProcessor.Domain.pdb
+C:\CHIJIOKE\PaymentProcessor.API\PaymentProcessor.Domain\obj\Debug\netcoreapp3.1\PaymentProcessor.Domain.genruntimeconfig.cache
+C:\CHIJIOKE\PaymentProcessor.API\PaymentProcessor.Domain\obj\Debug\netcoreapp3.1\PaymentProcessor.Domain.csprojAssemblyReference.cache

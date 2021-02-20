@@ -1,0 +1,47 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using PaymentProcessor.Domain.Contracts;
+using PaymentProcessor.Domain.Contexts;
+using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
+
+namespace PaymentProcessor.Domain.Repository
+{
+    public class RepositoryBase<T> : IRepositoryBase<T> where T : class
+    {
+        protected RepositoryContext _repositoryContext;
+
+        public RepositoryBase(RepositoryContext repositoryContext)
+        {
+            _repositoryContext = repositoryContext;
+        }
+
+        public void Create(T entity)
+        {
+            _repositoryContext.Set<T>().Add(entity);
+        }
+
+        public void Delete(T entity)
+        {
+            _repositoryContext.Set<T>().Remove(entity);
+        }
+
+        public IQueryable<T> FindAll()
+        {
+            return _repositoryContext.Set<T>().AsNoTracking();
+        }
+
+        public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression)
+        {
+            return _repositoryContext.Set<T>().Where(expression).AsNoTracking();
+        }       
+
+        public void Update(T entity)
+        {
+            _repositoryContext.Set<T>().Update(entity);
+        }
+    }
+}
