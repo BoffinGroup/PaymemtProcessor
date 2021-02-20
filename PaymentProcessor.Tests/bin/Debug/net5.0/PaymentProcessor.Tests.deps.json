@@ -1697,7 +1697,9 @@
       "PaymentProcessor.Domain/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
-          "Microsoft.EntityFrameworkCore": "5.0.3"
+          "Microsoft.EntityFrameworkCore": "5.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.3"
         },
         "runtime": {
           "PaymentProcessor.Domain.dll": {}

@@ -9,8 +9,9 @@ namespace PaymentProcessor.Domain.Entities
 {
     public class CardInfo
     {
-        [Required(ErrorMessage = "CreditCardNumber is required")]
-       
+        [Key]
+        public int Id { get; set; }
+        [Required(ErrorMessage = "CreditCardNumber is required")]       
         public string CreditCardNumber { get; set; }
         [Required(ErrorMessage = "CardHolder is required")]
         public string CardHolder { get; set; }

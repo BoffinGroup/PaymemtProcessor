@@ -43,8 +43,7 @@ namespace PaymentProcessor.API.Controllers
 
                 var response =  await _processPaymentService.ProcessPayment(cardInfo);
                 
-                return Ok(response);
-                
+                return Ok(response);              
                
 
             }
