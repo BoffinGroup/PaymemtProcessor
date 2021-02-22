@@ -26,7 +26,7 @@ namespace PaymentProcessor.API.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> ProcessPayment(CardInfoDTO cardInfo)
+        public async Task<IActionResult> ProcessPayment([FromBody]CardInfoDTO cardInfo)
         {
             try
             {
